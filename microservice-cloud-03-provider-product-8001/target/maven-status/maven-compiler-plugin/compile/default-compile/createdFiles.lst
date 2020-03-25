@@ -1,0 +1,5 @@
+com\laozhu\service\ProductService.class
+com\laozhu\controller\ProductController.class
+com\laozhu\service\impl\ProductServiceImpl.class
+com\laozhu\MicroserviceCloud03ProviderProduct8001Application.class
+com\laozhu\mapper\ProductMapper.class

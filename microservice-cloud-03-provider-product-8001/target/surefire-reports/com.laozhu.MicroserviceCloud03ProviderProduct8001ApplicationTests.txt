@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.laozhu.MicroserviceCloud03ProviderProduct8001ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.341 s <<< FAILURE! - in com.laozhu.MicroserviceCloud03ProviderProduct8001ApplicationTests
+initializationError(com.laozhu.MicroserviceCloud03ProviderProduct8001ApplicationTests)  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.laozhu.MicroserviceCloud03ProviderProduct8001Application]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\IdeaProject\springCloud\microservice-cloud-03-provider-product-8001\target\classes\com\laozhu\MicroserviceCloud03ProviderProduct8001Application.class], Generic bean: class [com.laozhu.MicroserviceCloud02ApiApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/E:/IdeaProject/springCloud/microservice-cloud-02-api/target/microservice-cloud-02-api-0.0.1-SNAPSHOT.jar!/com/laozhu/MicroserviceCloud02ApiApplication.class]]
+
